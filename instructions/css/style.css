@@ -1,0 +1,43 @@
+header{height: 150px;
+    width: 100%;
+    background-color:rgb(65, 61, 61)
+}
+
+h1{text-align: center;
+color:red
+}
+.blanc {text-align: center;
+color:white}
+
+.tete{text-transform: uppercase;background-color: rgb(201, 196, 196);
+margin-top: 0;width: 1200px;
+margin:0 auto;
+height: 35px;
+}
+
+.largeur{width: 1200px;
+margin-left: 80px;}
+.sect{display:flex;
+    flex-direction: row;
+ justify-content: space-between;
+}
+.foot{height: 150px;
+    width: 100%;
+    background-color:rgb(65, 61, 61)}
+
+.logo{height: 80px;
+    display: block;
+    margin:auto;
+}
+footer{text-align: center;
+text-transform:lowercase;
+color:white;
+
+}
+ footer:first-letter{text-transform: uppercase;}
+ span{color:red}
+
+ @media  and (max-width: 1200px;).main-content{flex-wrap:wrap}
+ .main-content article{width: calc(50%-10%);}
+    
+ 
