@@ -1,43 +1,90 @@
-header{height: 150px;
-    width: 100%;
-    background-color:rgb(65, 61, 61)
+header {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(65, 61, 61);
 }
 
-h1{text-align: center;
-color:red
+h1 {
+  text-align: center;
+  color: red;
 }
-.blanc {text-align: center;
-color:white}
-
-.tete{text-transform: uppercase;background-color: rgb(201, 196, 196);
-margin-top: 0;width: 1200px;
-margin:0 auto;
-height: 35px;
+.blanc {
+  text-align: center;
+  color: white;
 }
 
-.largeur{width: 1200px;
-margin-left: 80px;}
-.sect{display:flex;
-    flex-direction: row;
- justify-content: space-between;
+.tete {
+  text-transform: uppercase;
+  background-color: rgb(201, 196, 196);
+  margin-top: 0;
+  width: 100%;
+  margin: 0 auto;
+  height: 35px;
 }
-.foot{height: 150px;
-    width: 100%;
-    background-color:rgb(65, 61, 61)}
 
-.logo{height: 80px;
-    display: block;
-    margin:auto;
+.largeur {
+  width: 1200px;
+  margin-left: 80px;
 }
-footer{text-align: center;
-text-transform:lowercase;
-color:white;
-
+.sect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
- footer:first-letter{text-transform: uppercase;}
- span{color:red}
+.foot {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(65, 61, 61);
+}
 
- @media  and (max-width: 1200px;).main-content{flex-wrap:wrap}
- .main-content article{width: calc(50%-10%);}
-    
- 
+.logo {
+  height: 80px;
+  display: block;
+  margin: auto;
+}
+footer {
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+}
+footer:first-letter {
+  text-transform: uppercase;
+}
+span {
+  color: red;
+}
+
+main {
+  background-image: url(../../phare.jpg);
+  background-position: center;
+
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 400px;
+  height: 200px;
+  gap: 20px;
+}
+
+.texte {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
+  gap: 20px;
+}
+
+.secte {
+  display: flex;
+  border: 1px solid transparent;
+  padding: 20px 20px 20px 20px;
+  background: rgb(255, 255, 255, 0.5);
+  gap: 20px;
+}
+
+@ média screen and(max-width:600px){.secte{flex-direction:column;}}
